@@ -1,2 +1,2 @@
-file = open('hello.txt', 'w')
+file = open('hello.txt', 'w', encoding='Utf-8')
 file.write('Hello, world!')
