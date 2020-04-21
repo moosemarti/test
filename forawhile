@@ -1,0 +1,11 @@
+import random
+a = []
+a_num = 10
+for i in range(a_num):
+    a.append(random.randint(1, 10))
+print(a)
+i = 0
+while i < 5:
+    a.pop()
+    i += 1
+print(a)
